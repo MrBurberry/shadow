@@ -168,7 +168,7 @@ function config_shadowsocks(){
     "password":"${shadowsockspwd}",
     "timeout":300,
     "method":"aes-256-cfb",
-    "fast_open":false
+    "fast_open":true
 }
 EOF
 }
